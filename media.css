@@ -1,0 +1,19 @@
+/* For Tablets */
+@media (max-width: 768px) {
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    #home{
+        flex-direction: column;
+    }
+    .home-2{
+        order: 0;
+    }
+    .home-1{
+        order: 1;
+    }
+    .box{
+       margin: 0;
+    }
+}

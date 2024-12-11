@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+}
+.navbar{
+    /* border: 2px solid red; */
+    padding: 20px;
+    background-color: rgb(108, 4, 129);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+}
+
+.navbar ul li{
+    list-style: none;
+    color: white;
+}
+span{
+    color: rgb(133, 22, 156);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* home */
+#home,#services,#contact{
+    height: 100vh;
+}
+#home{
+     /* background-image: url('https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg');
+     background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(133, 22, 156);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    
+}
+.btn:hover{
+    background-color: rgb(108, 4, 129); 
+    cursor: pointer;
+}
+
+
+/* services */
+#services{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzgtMDkteC5qcGc.jpg');
+    background-size: cover;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border:2px solid  rgb(108, 4, 129); 
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.boxcontainer{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+    color: rgb(157, 16, 186);
+}
+.content{
+    margin: 10px;
+    /* color: blueviolet; */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 50px;
+}
+
+.serve{
+    color: white;
+}
+
+.connect{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connections{
+    display: flex;
+}
+
+ .img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+ }
